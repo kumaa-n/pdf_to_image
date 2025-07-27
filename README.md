@@ -23,7 +23,7 @@ PDFファイルを画像に一括変換できるシンプルなコマンドラ�
 ### インストール方法
 
 ```bash
-pip install PyMuPDF Pillow tqdm
+pip install -r requirements.txt
 ```
 
 ## 使い方
