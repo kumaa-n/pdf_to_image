@@ -8,6 +8,7 @@ from typing import List
 import fitz
 from tqdm import tqdm
 
+
 def get_matching_files(input_dir: str | Path, regex: re.Pattern = re.compile(r'.+')) -> List[str]:
     """ 指定されたディレクトリ内のファイルを取得し、正規表現にマッチするファイル名のリストを返す。
 
